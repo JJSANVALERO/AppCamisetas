@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Camisetas</string>
+    <string name="details">Details</string>
+    <string name="delete">Delete</string>
+    <string name="shirt_detail">Shirt Detail</string>
+    <string name="modify">Modify</string>
+    <string name="view_shirts">View Shirts</string>
+    <string name="view_map">View Map</string>
+    <string name="open_camera">Open camera</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="save_image">Save Image</string>
+</resources>
