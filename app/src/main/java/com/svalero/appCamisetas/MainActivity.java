@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
 
-        Button viewShirtButton = findViewById(R.id.viewMapButton);
+        Button viewShirtButton = findViewById(R.id.viewShirtsButton);
         viewShirtButton.setOnClickListener(this);
         Button viewMapButton = findViewById(R.id.viewMapButton);
         viewMapButton.setOnClickListener(this);
