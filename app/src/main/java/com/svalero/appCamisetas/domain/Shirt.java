@@ -23,7 +23,7 @@ public class Shirt {
 
     }
 
-    public Shirt(@NonNull String model, String description, String brand, double latitude, double longitude) {
+    public Shirt(String model, String description, String brand, double latitude, double longitude) {
         this.model = model;
         this.description = description;
         this.brand = brand;

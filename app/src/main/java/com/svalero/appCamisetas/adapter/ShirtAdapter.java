@@ -42,7 +42,7 @@ public class ShirtAdapter extends RecyclerView.Adapter<ShirtAdapter.ShirtHolder>
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ShirtAdapter.ShirtHolder holder, int position) {
+    public void onBindViewHolder(ShirtHolder holder, int position) {
         holder.shirtModel.setText(shirtList.get(position).getModel());
         holder.shirtDescription.setText(shirtList.get(position).getDescription());
     }
@@ -54,7 +54,6 @@ public class ShirtAdapter extends RecyclerView.Adapter<ShirtAdapter.ShirtHolder>
     }
 
     public class ShirtHolder extends RecyclerView.ViewHolder {
-        public TextView id;
         public TextView shirtModel;
         public TextView shirtDescription;
         public Button seeDetailsButton;
